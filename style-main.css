@@ -1,0 +1,114 @@
+.masthead {
+    text-align: center;
+}
+
+.Vicious_Cycles, .Resume, .Park_City {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page-title {
+    background-color: blue;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.picture {
+    width: 12%;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    clear: both;
+}
+/* Navbar background */
+.navMenu {
+    background: blue;
+    color: white;
+}
+/* Changes Navbar size and color */
+.navMenu a {
+	text-decoration: none; 
+	color: #fff; 
+    padding: 20px 10px;
+}
+
+/* Remove Bullets */
+.navMenu ul {
+	list-style: none; 
+}
+/* Changes background color, position and adds border*/
+.navMenu ul li {
+	position: relative;
+	display: block; 
+	background: #808080; 
+	padding: 2px 2px;
+    font: bold 12px;
+    font-family: ;
+    margin-right: 150px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    
+}
+/* Removes dash border from right*/
+.navMenu ul li:last-child {
+    border-right: none;
+}
+/* Changes hover color */
+.navMenu ul li:hover {
+    background: #2b50aa; 
+    
+}
+/* Sub menus on screen */
+.navMenu ul li:hover ul {
+    left: 0; 
+    
+}
+/* Submenu off screen */
+.navMenu ul li ul {
+
+	position: absolute;
+	left: -99999px;  
+	width: 200%;
+	top: 42px;
+    padding: 0;
+}
+/* Displays sub menu as block */
+.navMenu ul li ul li {
+	display: block; 
+    background:#808080;
+    border-bottom: 1px solid black;
+    border-right: none;
+    left: 50%;
+    top: -42px;
+    position: relative;
+}
+/* Remove dash border from bottom*/
+.navMenu ul li ul li:last-child {
+    border-bottom: none;
+}
+/* Sub menu hover color */
+.navMenu ul li ul li:hover {
+	background: #2b50aa;
+	
+}
+.main-content {
+    text-align: center;
+}
+
+.sidebar {
+    text-align: center;
+}
+
+.footer-content {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+}
+
+}
